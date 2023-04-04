@@ -1,0 +1,15 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: "env, beans"
+spring:
+  data:
+    mongodb:
+      host: "127.0.0.1"
+      port: 27017
+      database: "mongo-bootcamp"
+
+server:
+  port: 3090
